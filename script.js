@@ -64,14 +64,14 @@ function newElement() {
           var now = new Date().getTime();
           var distance=deadlineDate-now;
           var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
           if(days<0){
-            days_deadline="Deadline Crossed ("+days.toString()+" days )"
+            days_deadline="Deadline Crossed ("+days.toString()+" days) "
           }
           else{
-            days_deadline=days.toString()+" days left"
+            days_deadline="Deadline :"+days.toString()+"d";
           }
-          var hd = document.createElement("H4")               
+          var hd = document.createElement("H4")      ;         
           var td = document.createTextNode(days_deadline);    
           hd.appendChild(td); //add text node inside header (containing deadline)
           li.appendChild(hd); //add deadline inside the li item
