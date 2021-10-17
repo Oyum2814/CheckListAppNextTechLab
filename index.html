@@ -18,9 +18,24 @@
         <h1>To Do List</h1>
         <div class="task-input">
             <input type="text" id="myInput" placeholder="Your Goal...">
-            <span onclick="newElement()" class="addBtn">Add</span>
+
+            <label for="accept" id="deadline-checkbox">
+                <input type="checkbox" id="checkbox" name="deadline" value="addDeadline" onclick="addDeadline()">
+                <h3>Deadline</h3>
+            </label>
+            <input type="date" name="date" id="date-input" value="deadline-dt" min="2021-01-01" max="2030-12-31">
+
+            <span onclick="newElement()" class="addBtn">Add Task</span>
+
+
         </div>
         <ul id="myUL">
+            <li>
+
+                <h3>5 days left</h3>
+                <h4>6 days left</h4>
+                <span class="close"></span>
+            </li>
 
         </ul>
 
