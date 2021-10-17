@@ -42,8 +42,7 @@ and scaled and that it has proper z-index
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-size: 100% 1100%;
-
-  max-height: 90%;
+  height: 600px;
 }
 .container h1 {
   font-family: "Courgette";
@@ -80,7 +79,7 @@ input {
 ul {
   margin: 0;
   padding: 0;
-  height: 10rem;
+  height: 400px;
   overflow: auto;
 }
 ul li {
@@ -102,7 +101,7 @@ ul li p {
   border-width: 0.2em;
   border-style: dashed;
   font-size: 1.2rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   display: block;
   text-align: center;
   position: relative;
@@ -120,6 +119,7 @@ ul li:hover {
 }
 
 ul li p.checked {
+  /*This shall be applied only when the checked state is toggled */
   background: rgba(0, 0, 0, 0.3);
   color: #fff;
   text-decoration: line-through;
@@ -158,12 +158,17 @@ ul li p.checked {
 #date-input {
   display: none;
 }
+
+/* Using Media query for responsive design */
 @media screen and (max-width: 600px) {
   .container {
     font-size: 0.7em;
     width: 70%;
+    height: 600px;
   }
-
+  ul {
+    height: 20rem;
+  }
   .addBtn {
     font-size: 1em;
   }
@@ -186,14 +191,17 @@ ul li p.checked {
     font-size: 1.2em;
   }
 }
-@media screen and (max-height: 600px) {
+
+/* Media Query again for responsive design */
+@media screen and (max-height: 710px) {
   .container {
-    width: 85%;
+    width: 70%;
+    height: 400px;
   }
   .container h1 {
     font-size: 1rem;
   }
   ul {
-    max-height: 5rem;
+    max-height: 120px;
   }
 }
