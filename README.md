@@ -10,4 +10,8 @@ You can enter the goal you need to achieve and can either click on Add Button or
 
 <img width="1440" alt="Screen Shot 2021-10-18 at 4 40 53 AM" src="https://user-images.githubusercontent.com/72745185/137648363-15849b4f-6a8e-4177-aa58-539f14f579f7.png">
 
+<img width="433" alt="Screen Shot 2021-10-18 at 4 42 13 AM" src="https://user-images.githubusercontent.com/72745185/137648433-5081ba76-a843-4894-953d-9772c48fae9f.png">
 
+<img width="450" alt="Screen Shot 2021-10-18 at 4 43 24 AM" src="https://user-images.githubusercontent.com/72745185/137648458-4326d98d-f64e-4b3a-a514-aec960223c44.png">
+
+<img width="423" alt="Screen Shot 2021-10-18 at 4 44 24 AM" src="https://user-images.githubusercontent.com/72745185/137648485-b9ff147a-b09e-4ee8-a926-df92a10fd6e3.png">
