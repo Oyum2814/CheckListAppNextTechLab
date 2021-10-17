@@ -55,7 +55,7 @@ function newElement() {
         var checkBox=document.getElementById("checkbox");
         if (document.getElementById('date-input').value=='' && checkBox.checked==true)
         {
-          alert('Enter the date');
+          alert('Deadline was not mentioned clearly - Kindly select a proper date to add Deadline.');
         }
         else if(checkBox.checked == true){
           deadline=document.getElementById('date-input').value;
