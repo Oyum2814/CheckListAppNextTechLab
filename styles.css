@@ -136,11 +136,13 @@ ul li h3.checked {
 }
 #checkbox {
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   left: 15%;
-  margin: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right:0.5rem;
 }
+
 #date-input {
   display: none;
 }
