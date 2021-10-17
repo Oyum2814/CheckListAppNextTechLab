@@ -21,7 +21,7 @@ for (i = 0; i < close.length; i++) {
 // Add a "checked" symbol when clicking on a list item
 var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'H3') {
+  if (ev.target.tagName === 'P') {
     ev.target.classList.toggle('checked');
   }
 },false);
