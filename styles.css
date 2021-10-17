@@ -139,8 +139,7 @@ ul li h3.checked {
   width: 25px;
   height: 25px;
   left: 15%;
-  margin-left: 0.5rem;
-  margin-right:0.5rem;
+  margin-right:1.2rem;
 }
 
 #date-input {
