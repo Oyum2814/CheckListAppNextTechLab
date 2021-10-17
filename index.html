@@ -12,24 +12,24 @@
 </head>
 
 <body>
-    <div class="bg-image"></div>
+    <div class="bg-image"></div> <!--  Background Image -->
 
     <div class="container">
         <h1>CheckList</h1>
         <div class="task-input">
-            <input type="text" id="myInput" placeholder="Your Goal...">
+            <input type="text" id="myInput" placeholder="Your Goal..."> <!--   This will take as input the goal which you want to add to the list. -->
 
             <label for="accept" id="deadline-checkbox">
-                <input type="checkbox" id="checkbox" name="deadline" value="addDeadline" onclick="addDeadline()">
+                <input type="checkbox" id="checkbox" name="deadline" value="addDeadline" onclick="addDeadline()"> <!-- Checkbox input  -->
                 <h3>Deadline</h3>
             </label>
-            <input type="date" name="date" id="date-input" value="deadline-dt" min="2021-01-01" max="2030-12-31">
+            <input type="date" name="date" id="date-input" value="deadline-dt" min="2021-01-01" max="2030-12-31"> <!-- Date Input   -->
 
-            <span onclick="newElement()" class="addBtn">Add Task</span>
+            <span onclick="newElement()" class="addBtn">Add Task</span> <!--  Add Task Button -->
 
 
         </div>
-        <ul id="myUL">
+        <ul id="myUL">  <!--  This is the unordered list which shall contain all the items -->
         </ul>
 
 
