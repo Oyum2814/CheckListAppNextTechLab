@@ -107,7 +107,7 @@ ul li p {
   text-align: center;
   position: relative;
   padding: 0.3rem;
-  background-color: rgba(0, 0, 0, 0.3);
+
   overflow-x: auto;
 }
 ul li h4 {
@@ -119,10 +119,11 @@ ul li:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 
-ul li h3.checked {
+ul li p.checked {
   background: rgba(0, 0, 0, 0.3);
   color: #fff;
   text-decoration: line-through;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .close {
