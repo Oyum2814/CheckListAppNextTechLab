@@ -7,3 +7,4 @@ You can enter the goal you need to achieve and can either click on Add Button or
 2 - open the folder, right click on the index.html file and open the same with any browser- It will display the website correctly.
 
 https://brave-almeida-96e47c.netlify.app/
+
