@@ -41,7 +41,7 @@ function newElement() {
   var days_deadline="";
   var inputValue = document.getElementById("myInput").value;
   var li = document.createElement("li");
-  var h = document.createElement("H3")                // Create a <h3> element
+  var h = document.createElement("P")                // Create a <p> element
   var t = document.createTextNode(inputValue);     // Create a text node
   
   h.appendChild(t); //add text node inside header
@@ -55,7 +55,7 @@ function newElement() {
         var checkBox=document.getElementById("checkbox");
         if (document.getElementById('date-input').value=='' && checkBox.checked==true)
         {
-          alert('Deadline was not mentioned clearly - Kindly select a proper date to add Deadline.');
+          alert('Deadline was not mentioned');
         }
         else if(checkBox.checked == true){
           deadline=document.getElementById('date-input').value;
@@ -84,6 +84,7 @@ function newElement() {
   }
   document.getElementById("myInput").value = "";
   days_deadline=""
+  
 
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
