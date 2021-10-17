@@ -32,7 +32,7 @@ and scaled and that it has proper z-index
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 80%;
+  width: 90%;
   padding: 20px;
   text-align: center;
   background: rgba(255, 255, 255, 0.09);
