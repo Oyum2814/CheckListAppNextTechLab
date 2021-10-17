@@ -59,8 +59,8 @@ input {
   font-size: 16px;
 }
 .addBtn {
-  padding: 10px;
-  width: 15%;
+  padding: 1rem;
+  width: 40%;
   background: #d9d9d9;
   color: #555;
   float: right;
@@ -73,6 +73,8 @@ input {
 }
 .task-input {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
@@ -85,52 +87,67 @@ ul li {
   text-align: start;
   cursor: pointer;
   position: relative;
-  padding: 12px 8px 12px 40px;
-  font-size: 1.2rem;
+  padding: 12px 8px 12px 8px;
+  display: flex;
   justify-content: center;
   align-items: center;
   overflow-x: auto;
+  margin: 1rem;
+}
+ul li h3 {
+  font-size: 1.2rem;
+}
+ul li h4 {
+  font-size: 0.8em;
+  margin: 1rem;
+  color: yellow;
 }
 ul li:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 
-ul li.checked {
+ul li h3.checked {
   background: rgba(0, 0, 0, 0.3);
   color: #fff;
   text-decoration: line-through;
 }
-ul li.checked::before {
-  content: "";
-  position: absolute;
-  border-color: #fff;
-  border-style: solid;
-  border-width: 0 2px 2px 0;
-  top: 10px;
-  left: 16px;
-  transform: rotate(45deg);
-  height: 15px;
-  width: 7px;
-}
 
 .close {
   position: relative;
-  padding: 12px 16px 12px 16px;
+  padding: 12px 0px 12px 0px;
   margin: 0.5rem;
-  border-radius: 50%;
+  width: 2rem;
+  text-align: center;
 }
 
 .close:hover {
   background-color: #313131;
   color: white;
 }
-
+#deadline-checkbox {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+#deadline-checkbox h3 {
+  margin: 1.3rem;
+}
+#checkbox {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  left: 15%;
+  margin: 0.5rem;
+}
+#date-input {
+  display: none;
+}
 @media screen and (max-width: 600px) {
   .container {
     font-size: 0.7em;
   }
 
-  addBtn {
+  .addBtn {
     font-size: 1em;
   }
 
@@ -138,6 +155,12 @@ ul li.checked::before {
     flex-direction: column;
   }
   ul li {
+    font-size: 2em;
+  }
+  #checkbox {
+    left: 0%;
+  }
+  #deadline-checkbox {
     font-size: 2em;
   }
 }
