@@ -42,7 +42,8 @@ and scaled and that it has proper z-index
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-size: 100% 1100%;
-  height: auto;
+
+  max-height: 90%;
   width: 60%;
 }
 .container h1 {
@@ -80,7 +81,7 @@ input {
 ul {
   margin: 0;
   padding: 0;
-  max-height: 400px;
+  height: 10rem;
   overflow: auto;
 }
 ul li {
@@ -91,8 +92,9 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: auto;
-  margin: 1rem;
+  overflow: auto;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
 }
 ul li h3 {
   font-size: 1.2rem;
@@ -155,12 +157,25 @@ ul li h3.checked {
     flex-direction: column;
   }
   ul li {
-    font-size: 2em;
+    font-size: 1em;
   }
   #checkbox {
     left: 0%;
+    width: 20px;
+    height: 20px;
   }
   #deadline-checkbox {
-    font-size: 2em;
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-height: 600px) {
+  .container {
+    width: 85%;
+  }
+  .container h1 {
+    font-size: 1rem;
+  }
+  ul {
+    max-height: 5rem;
   }
 }
