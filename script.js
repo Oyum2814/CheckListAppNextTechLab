@@ -60,7 +60,7 @@ function newElement() {
           var distance=deadlineDate-now; //The difference between the deadline time and the time right now
           var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 
-          if(days<0){
+          if(days<-1){
             days_deadline="EXPIRED ("+days.toString()+" days)"; // If days left to the deadline is negative it means the deadline has expired.
             var hd = document.createElement("H4")      ;         
             var td = document.createTextNode(days_deadline);    
@@ -68,7 +68,7 @@ function newElement() {
             li.appendChild(hd); //add deadline inside the li item
             hd.style.color='red';
           }
-          else if(days==0){
+          else if(days==-1){
             days_deadline="Deadline: Today";
             var hd = document.createElement("H4")      ;         
             var td = document.createTextNode(days_deadline);    
