@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
     <script src="./script.js" defer></script>
+    <link rel="shortcut icon" href="./icon.ico" type="image/x-icon">
     <title>Checklist App</title>
 </head>
 
@@ -17,24 +18,22 @@
     <div class="container">
         <h1>CheckList</h1>
         <div class="task-input">
-            <input type="text" id="myInput" placeholder="Your Goal..."> <!--   This will take as input the goal which you want to add to the list. -->
+            <input type="text" id="myInput" placeholder="Your Goal...">
+            <!--   This will take as input the goal which you want to add to the list. -->
 
             <label for="accept" id="deadline-checkbox">
-                <input type="checkbox" id="checkbox" name="deadline" value="addDeadline" onclick="addDeadline()"> <!-- Checkbox input  -->
+                <input type="checkbox" id="checkbox" name="deadline" value="addDeadline"> <!-- Checkbox input  -->
                 <h3>Deadline</h3>
             </label>
-            <input type="date" name="date" id="date-input" value="deadline-dt" min="2021-01-01" max="2030-12-31"> <!-- Date Input   -->
+            <input type="date" name="date" id="date-input" value="deadline-dt" min="2021-01-01" max="2030-12-31">
+            <!-- Date Input   -->
 
-            <span onclick="newElement()" class="addBtn">Add Task</span> <!--  Add Task Button -->
-
-
+            <span id="newElement" class="addBtn">Add Task</span> <!-- Add Task Button -->
         </div>
-        <ul id="myUL">  <!--  This is the unordered list which shall contain all the items -->
+        <ul id="myUL">
+            <!--  This is the unordered list which shall contain all the items -->
         </ul>
-
-
     </div>
-
 </body>
 
 </html>

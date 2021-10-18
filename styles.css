@@ -3,6 +3,11 @@ html {
   height: 100%;
 }
 
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
 .bg-image {
   background-image: url("https://www.cashadvance6online.com/data/archive/img/777583773.jpeg"); /*  The Background image */
 
