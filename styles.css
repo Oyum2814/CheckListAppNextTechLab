@@ -115,7 +115,7 @@ ul li h4 {
   color: yellow;
 }
 ul li:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 ul li p.checked {
