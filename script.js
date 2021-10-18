@@ -69,7 +69,7 @@ function newElement() {
             hd.style.color='red';
           }
           else{
-            days+=1
+         
             days_deadline=days.toString()+" days ";
             var hd = document.createElement("H4")      ;         
             var td = document.createTextNode(days_deadline);    
