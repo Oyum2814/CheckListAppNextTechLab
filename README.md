@@ -8,7 +8,7 @@ The website: https://brave-almeida-96e47c.netlify.app/
 
 <h2>
   Steps to run it locally:
-<\h2>
+</h2>
 <br/>
   
 1 - Download this github repository as a zip file and unzip its content into a folder <br/>
