@@ -6,7 +6,11 @@ You can enter the goal you need to achieve and can either click on Add Button or
 
 The website: https://brave-almeida-96e47c.netlify.app/
 
-<h2>Steps to run it locally:<h2/><br/>
+<h2>
+  Steps to run it locally:
+<\h2>
+<br/>
+  
 1 - Download this github repository as a zip file and unzip its content into a folder <br/>
 2 - open the folder, right click on the index.html file and open the same with any browser- It will display the website correctly.
 
